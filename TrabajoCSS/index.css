@@ -1,0 +1,89 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+header {
+    font-size: 16px;
+    width: 25%;
+    margin: auto;
+    padding: 20px;
+    text-align: center;
+    font-weight: bold;
+    background-color: white;
+    border: 5px solid thistle;
+    border-radius: 100px;
+    opacity: 80%;
+}
+body {
+    background-color: rgba(143, 240, 240, 0.3);
+    background-image: url(/TrabajoCSS/front-view-young-woman-sterile-mask-yellow-wall.png);
+    background-size: 100%;
+    background-position: 0%;
+    background-repeat: no-repeat;
+}
+.navegacion {
+    margin: 5px;
+    padding: 20px;
+    text-align: center;
+    background-color: white;
+    border: 5px solid thistle;
+    border-radius: 100px;
+    opacity: 80%;
+}
+.navegacion ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.menu > li {
+    display: inline-block;
+    text-align: center;
+}
+.menu > li >a {
+    padding: 10px;
+    color: #252525;
+    text-decoration: none;
+}
+.menu li a:hover {
+    color: blueviolet;
+    transition: all .3s;
+}
+.submenu {
+    position: absolute;
+    background-color: #333333;
+    visibility: hidden;
+    opacity: 0;
+    transition: opacity 1.5s;
+}
+.submenu li a{
+    text-align: center;
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+}
+.menu li:hover .submenu{
+    visibility: visible;
+    opacity: 1;
+}
+article {
+    font-size: 1.5rem;
+    width: min-content;
+}
+p{
+    font-size: 1.5rem;
+    width: min-content;
+}
+button {
+    width: 100px;
+    height: 50px;
+}
+#parrafo3 {
+    position: absolute;
+    top: 150px;
+    right: 1px;
+}
+#parrafo4 {
+    position: absolute;
+    top:70%;
+    right: 40px;
+}
